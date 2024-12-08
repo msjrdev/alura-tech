@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+SITE_ID = 1
 
 # Application definition
 
@@ -142,8 +143,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SOCIALACCOUNT_PROVIDERS = {
     'github': {
         'APP': {
-            'client_id': '123',
-            'secret': '456',
+            'client_id': 'Ov23liiBl8G0O4JhlUIP',
+            'secret': '5a7afe6de36282cc3b3f384e7e70c6f36751aaf0',
             'key': ''
         }
     }
